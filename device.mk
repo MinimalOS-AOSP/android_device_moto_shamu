@@ -331,6 +331,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/moto/shamu/nfcee_access.xml:system/etc/nfcee_access.xml
 
+# old-apns.conf
+PRODUCT_COPY_FILES += \
+    device/moto/shamu/old-apns-conf.xml:system/etc/old-apns-conf.xml
+
 # Modem debugger
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
