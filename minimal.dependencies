@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "mo",
+    "repository": "device_moto_shamu",
+    "target_path": "device/moto/shamu",
+    "revision": "mm-6.0"
+  },
+  {
+    "remote": "mo",
+    "repository": "kernel_moto_shamu",
+    "target_path": "kernel/moto/shamu",
+    "revision": "mm-6.0"
+  },
+  { 
+    "remote": "mo",
+    "repository": "proprietary_vendor_moto",
+    "target_path": "vendor/moto",
+    "revision": "mm-6.0"
+  }
+]
